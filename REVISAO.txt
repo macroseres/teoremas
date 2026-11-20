@@ -1,0 +1,10 @@
+TEOREMAS EM PROVA | REVISÃO DA COLEÇÃO
+
+Matemática
+200 páginas examinadas individualmente. 45 receberam ajustes de matemática, precisão das hipóteses, demonstração ou exemplo. 155 não precisaram de alteração matemática. O arquivo auditoria.csv registra o resultado e uma observação por teorema.
+
+Navegação e leitura
+200 páginas de teoremas e o índice foram verificados no navegador em três larguras (360, 768 e 1280 pixels), totalizando 603 verificações. Não houve rolagem horizontal da página inteira. As fórmulas que excedem o espaço têm rolagem dentro do próprio bloco; no teclado, pressione Tab até a fórmula e use as setas. Os títulos das seções seguem a hierarquia da página.
+
+Uso
+Extraia o ZIP e abra index.html. As páginas, a busca e as fórmulas funcionam sem internet em navegador moderno com suporte a MathML. Esta revisão não publicou nada e não alterou o Currículo Lattes.

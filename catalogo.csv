@@ -1,0 +1,201 @@
+﻿id;area;titulo;arquivo
+001;Lógica e conjuntos;Leis de De Morgan;de-morgan.html
+002;Lógica e conjuntos;Distributividade de união e interseção;logica-distributividade-conjuntos.html
+003;Lógica e conjuntos;Associatividade da diferença simétrica;logica-associatividade-diferenca-simetrica.html
+004;Lógica e conjuntos;Correspondência entre equivalências e partições;logica-classes-e-particoes.html
+005;Lógica e conjuntos;Teorema de Cantor;logica-conjunto-das-partes-cantor.html
+006;Lógica e conjuntos;Teorema de Cantor–Schröder–Bernstein;logica-cantor-schroeder-bernstein.html
+007;Lógica e conjuntos;Pré-imagem de uniões e interseções;logica-preimagem-de-familias.html
+008;Lógica e conjuntos;Como reconhecer uma injeção pelas imagens;logica-imagem-intersecao-injetividade.html
+009;Lógica e conjuntos;Equivalência com a contrapositiva;logica-implicacao-contrapositiva.html
+010;Lógica e conjuntos;Negação dos quantificadores;logica-negacao-dos-quantificadores.html
+011;Lógica e conjuntos;Equivalência entre indução forte e ordinária;logica-inducao-forte.html
+012;Lógica e conjuntos;Inversa de uma relação composta;logica-inversa-relacao-composta.html
+013;Lógica e conjuntos;Injeção e sobrejeção na composição;logica-composicao-injecao-sobrejecao.html
+014;Lógica e conjuntos;União de conjuntos com listagens enumeráveis;logica-uniao-enumeravel-listagens.html
+015;Lógica e conjuntos;Forma normal disjuntiva;logica-forma-normal-disjuntiva.html
+016;Lógica e conjuntos;Fatoração de funções por um quociente;logica-fatoracao-por-quociente.html
+017;Lógica e conjuntos;Menor conjunto estável por uma função;logica-menor-conjunto-invariante.html
+018;Lógica e conjuntos;Elementos maximais em ordens finitas;logica-elementos-maximais-poset-finito.html
+019;Lógica e conjuntos;Ponto fixo de uma operação monótona;logica-knaster-tarski-partes.html
+020;Lógica e conjuntos;Decomposição de uma união em partes disjuntas;logica-disjuncao-de-uniao.html
+021;Teoria dos números;Infinitude dos números primos;infinitude-primos.html
+022;Teoria dos números;Teorema da divisão euclidiana;numeros-algoritmo-da-divisao.html
+023;Teoria dos números;Identidade de Bézout;numeros-identidade-de-bezout.html
+024;Teoria dos números;Lema de Euclides;numeros-lema-de-euclides.html
+025;Teoria dos números;Teorema fundamental da aritmética;numeros-teorema-fundamental-aritmetica.html
+026;Teoria dos números;Cancelamento em congruências;numeros-cancelamento-em-congruencias.html
+027;Teoria dos números;Critério de solução de uma congruência linear;numeros-congruencia-linear.html
+028;Teoria dos números;Teorema chinês dos restos;numeros-teorema-chines-dos-restos.html
+029;Teoria dos números;Pequeno teorema de Fermat;numeros-pequeno-teorema-fermat.html
+030;Teoria dos números;Teorema de Euler para congruências;numeros-teorema-de-euler.html
+031;Teoria dos números;Teorema de Wilson;numeros-teorema-de-wilson.html
+032;Teoria dos números;Teorema de Legendre para fatoriais;numeros-formula-de-legendre.html
+033;Teoria dos números;Teorema da contagem de divisores;numeros-numero-de-divisores.html
+034;Teoria dos números;Multiplicatividade do totiente de Euler;numeros-totiente-multiplicativo.html
+035;Teoria dos números;Caracterização dos decimais eventualmente periódicos;numeros-decimais-eventualmente-periodicos.html
+036;Teoria dos números;Classificação das ternas pitagóricas primitivas;numeros-ternas-pitagoricas-primitivas.html
+037;Teoria dos números;Primos três módulo quatro e somas de quadrados;numeros-primo-tres-mod-quatro-soma-quadrados.html
+038;Teoria dos números;Inversão de Möbius em somas de divisores;numeros-inversao-de-mobius.html
+039;Teoria dos números;Identidade entre MDC, MMC e produto;numeros-mdc-mmc-produto.html
+040;Teoria dos números;Divisibilidade da ordem multiplicativa;numeros-ordem-multiplicativa.html
+041;Combinatória;Teorema do binômio;binomio.html
+042;Combinatória;Princípio das casas dos pombos;combinatoria-casas-pombos.html
+043;Combinatória;Identidade de Pascal;combinatoria-pascal.html
+044;Combinatória;Identidade de Vandermonde;combinatoria-vandermonde.html
+045;Combinatória;Identidade do taco de hóquei;combinatoria-taco-hoquei.html
+046;Combinatória;Princípio de inclusão e exclusão;combinatoria-inclusao-exclusao.html
+047;Combinatória;Teorema das estrelas e barras;combinatoria-estrelas-barras.html
+048;Combinatória;Fórmula dos desarranjos;combinatoria-desarranjos.html
+049;Combinatória;Número de caminhos mínimos no reticulado;combinatoria-caminhos-minimos-reticulado.html
+050;Combinatória;Fórmula dos números de Catalan;combinatoria-catalan-reflexao.html
+051;Combinatória;Recorrência de Stirling de segunda espécie;combinatoria-stirling-segunda-especie.html
+052;Combinatória;Lema de Burnside;combinatoria-burnside.html
+053;Combinatória;Lema dos apertos de mão;combinatoria-apertos-de-mao.html
+054;Combinatória;Número de arestas de uma árvore;combinatoria-arestas-arvores.html
+055;Combinatória;Caracterização dos grafos bipartidos;combinatoria-criterio-bipartido.html
+056;Combinatória;Teorema do casamento de Hall;combinatoria-hall.html
+057;Combinatória;Teorema de Ramsey para seis vértices;combinatoria-ramsey-seis.html
+058;Combinatória;Lema de Lubell–Yamamoto–Meshalkin;combinatoria-lema-lym.html
+059;Combinatória;Teorema de Sperner;combinatoria-sperner.html
+060;Combinatória;Critério de Euler para circuitos;combinatoria-euler-circuitos.html
+061;Geometria;Teorema de Pitágoras;pitagoras.html
+062;Geometria;Soma dos ângulos de um triângulo;geometria-angulos-triangulo.html
+063;Geometria;Teorema do ângulo externo;geometria-angulo-externo-triangulo.html
+064;Geometria;Teorema dos ângulos da base;geometria-angulos-isosceles.html
+065;Geometria;Teorema do segmento médio;geometria-segmento-pontos-medios.html
+066;Geometria;Lei dos cossenos;geometria-lei-cossenos.html
+067;Geometria;Área do triângulo por dois lados e um ângulo;geometria-area-seno.html
+068;Geometria;Lei dos senos;geometria-lei-senos.html
+069;Geometria;Teorema da bissetriz interna;geometria-bissetriz-interna.html
+070;Geometria;Teorema do baricentro;geometria-baricentro-medianas.html
+071;Geometria;Teorema de Apolônio para a mediana;geometria-mediana-apolonio.html
+072;Geometria;Desigualdade triangular euclidiana;geometria-desigualdade-triangulo-euclidiana.html
+073;Geometria;Fórmula de Heron;geometria-formula-heron.html
+074;Geometria;Teorema do circuncentro;geometria-circuncentro-mediatrizes.html
+075;Geometria;Teorema do incentro;geometria-incentro-bissetrizes.html
+076;Geometria;Fórmula da distância de ponto a reta;geometria-distancia-ponto-reta.html
+077;Geometria;Teorema de Ceva para cevianas internas;geometria-ceva.html
+078;Geometria;Teorema de Stewart;geometria-stewart.html
+079;Geometria;Teorema de Varignon;geometria-varignon.html
+080;Geometria;Potência de um ponto em relação à circunferência;geometria-potencia-ponto-circulo.html
+081;Álgebra linear;Teorema do núcleo e da imagem;nucleo-imagem.html
+082;Álgebra linear;Lema da troca de Steinitz;linear-troca-steinitz.html
+083;Álgebra linear;Fórmula da dimensão da soma;linear-dimensao-soma-subespacos.html
+084;Álgebra linear;Critério de invertibilidade pelo núcleo;linear-invertibilidade-nulo.html
+085;Álgebra linear;Desigualdade de Cauchy–Schwarz;linear-cauchy-schwarz-linear.html
+086;Álgebra linear;Processo de Gram–Schmidt;linear-gram-schmidt.html
+087;Álgebra linear;Decomposição ortogonal;linear-decomposicao-ortogonal.html
+088;Álgebra linear;Teorema da melhor aproximação ortogonal;linear-melhor-aproximacao.html
+089;Álgebra linear;Representação de Riesz em dimensão finita;linear-riesz-finito.html
+090;Álgebra linear;Desigualdade de Bessel para famílias finitas;linear-bessel-linear.html
+091;Álgebra linear;Teorema das equações normais;linear-equacoes-normais.html
+092;Álgebra linear;Independência de autovetores para autovalores distintos;linear-autovetores-independentes.html
+093;Álgebra linear;Critério de diagonalização por polinômio sem raízes repetidas;linear-diagonalizacao-polinomio-simples.html
+094;Álgebra linear;Teorema de Cayley–Hamilton;linear-cayley-hamilton.html
+095;Álgebra linear;Teorema espectral real;linear-espectral-real.html
+096;Álgebra linear;Critério espectral de positividade definida;linear-positividade-espectral.html
+097;Álgebra linear;Decomposição em valores singulares;linear-decomposicao-singular.html
+098;Álgebra linear;Invariância do traço por semelhança;linear-invariancia-traco.html
+099;Álgebra linear;Multiplicatividade do determinante;linear-determinante-produto.html
+100;Álgebra linear;Fórmula de Sherman–Morrison;linear-sherman-morrison.html
+101;Álgebra abstrata;Teorema de Lagrange;lagrange-grupos.html
+102;Álgebra abstrata;Critério de subgrupo;abstrata-criterio-subgrupo.html
+103;Álgebra abstrata;Subgrupos de um grupo cíclico;abstrata-subgrupos-ciclicos.html
+104;Álgebra abstrata;Fórmula da ordem de uma potência;abstrata-ordem-potencia.html
+105;Álgebra abstrata;Primeiro teorema do isomorfismo para grupos;abstrata-primeiro-isomorfismo-grupos.html
+106;Álgebra abstrata;Teorema da correspondência para subgrupos;abstrata-correspondencia-subgrupos.html
+107;Álgebra abstrata;Teorema órbita–estabilizador;abstrata-orbita-estabilizador.html
+108;Álgebra abstrata;Teorema de Cayley;abstrata-cayley-grupos.html
+109;Álgebra abstrata;Teorema de Cauchy para grupos finitos;abstrata-cauchy-grupos.html
+110;Álgebra abstrata;Equação das classes de conjugação;abstrata-equacao-classes.html
+111;Álgebra abstrata;Centro não trivial de um p-grupo finito;abstrata-centro-p-grupo.html
+112;Álgebra abstrata;Normalidade de subgrupos de índice dois;abstrata-subgrupo-indice-dois.html
+113;Álgebra abstrata;Teorema da paridade de permutações;abstrata-paridade-permutacoes.html
+114;Álgebra abstrata;Critério de ideal maximal pelo quociente;abstrata-ideal-maximal-corpo.html
+115;Álgebra abstrata;Critério de ideal primo pelo domínio quociente;abstrata-ideal-primo-dominio.html
+116;Álgebra abstrata;Teorema chinês dos restos para dois ideais;abstrata-teorema-chines-ideais.html
+117;Álgebra abstrata;Principalidade dos ideais de K[X];abstrata-ideais-polinomiais-principais.html
+118;Álgebra abstrata;Critério de corpo para quocientes de polinômios;abstrata-quociente-polinomio-irredutivel.html
+119;Álgebra abstrata;Propriedade universal do anel de polinômios;abstrata-propriedade-universal-polinomios.html
+120;Álgebra abstrata;Ordem e característica de um corpo finito;abstrata-tamanho-corpo-finito.html
+121;Cálculo;Teorema do valor médio;valor-medio.html
+122;Cálculo;Teorema de Fermat para extremos locais;calculo-fermat-extremo-local.html
+123;Cálculo;Teorema de Rolle;calculo-rolle.html
+124;Cálculo;Regra da cadeia;calculo-regra-cadeia.html
+125;Cálculo;Derivada da função inversa;calculo-derivada-inversa.html
+126;Cálculo;Critério da segunda derivada;calculo-criterio-segunda-derivada.html
+127;Cálculo;Critério de convexidade pela derivada;calculo-criterio-convexidade.html
+128;Cálculo;Teorema fundamental do cálculo: derivação;calculo-fundamental-calculo-derivacao.html
+129;Cálculo;Fórmula de Newton–Leibniz;calculo-fundamental-calculo-newton-leibniz.html
+130;Cálculo;Mudança de variável na integral definida;calculo-mudanca-variavel-integral.html
+131;Cálculo;Integração por partes;calculo-integracao-por-partes.html
+132;Cálculo;Teorema do valor médio de Cauchy;calculo-valor-medio-cauchy.html
+133;Cálculo;Regra de L'Hôpital: forma zero sobre zero;calculo-lhopital-zero-zero.html
+134;Cálculo;Teorema de Taylor com resto de Lagrange;calculo-taylor-lagrange.html
+135;Cálculo;Parciais contínuas garantem diferenciabilidade;calculo-diferenciabilidade-parciais-continuas.html
+136;Cálculo;Teorema de Schwarz para derivadas mistas;calculo-schwarz-mistas.html
+137;Cálculo;Gradiente e derivada direcional;calculo-gradiente-direcional.html
+138;Cálculo;Teorema de Green no retângulo;calculo-green-retangulo.html
+139;Cálculo;Teorema da divergência na caixa;calculo-divergencia-caixa.html
+140;Cálculo;Derivação sob o sinal de integral;calculo-derivacao-integral-parametro.html
+141;Análise real;Convergência de sequências monótonas;monotona-limitada.html
+142;Análise real;Propriedade arquimediana;analise-analise-arquimedes.html
+143;Análise real;Densidade dos racionais;analise-analise-densidade-racionais.html
+144;Análise real;Teorema dos intervalos encaixados;analise-analise-intervalos-encaixados.html
+145;Análise real;Teorema de Bolzano–Weierstrass;analise-analise-bolzano-weierstrass.html
+146;Análise real;Critério de Cauchy na reta;analise-analise-criterio-cauchy.html
+147;Análise real;Teorema de Heine–Borel na reta;analise-analise-heine-borel.html
+148;Análise real;Teorema do valor extremo;analise-analise-valor-extremo.html
+149;Análise real;Teorema do valor intermediário;analise-analise-valor-intermediario.html
+150;Análise real;Teorema de Heine–Cantor;analise-analise-heine-cantor.html
+151;Análise real;Limite uniforme de funções contínuas;analise-analise-limite-uniforme-continuo.html
+152;Análise real;Teste M de Weierstrass;analise-analise-teste-m-weierstrass.html
+153;Análise real;Integração de um limite uniforme;analise-analise-integral-limite-uniforme.html
+154;Análise real;Convergência uniforme das derivadas;analise-analise-convergencia-derivadas.html
+155;Análise real;Integrabilidade de funções monótonas;analise-analise-monotona-riemann.html
+156;Análise real;Critério de Leibniz para séries alternadas;analise-analise-serie-alternada.html
+157;Análise real;Teste da razão para séries;analise-analise-teste-razao.html
+158;Análise real;Teste de Dirichlet para séries;analise-analise-teste-dirichlet.html
+159;Análise real;Teorema de Darboux para derivadas;analise-analise-darboux-derivadas.html
+160;Análise real;Teorema de Dini;analise-analise-dini.html
+161;Equações diferenciais;Equação linear de primeira ordem;edo-fator-integrante.html
+162;Equações diferenciais;Separação de variáveis;edos-edo-separacao.html
+163;Equações diferenciais;Unicidade impede o cruzamento de soluções;edos-edo-curvas-nao-cruzam.html
+164;Equações diferenciais;Lei logística: solução e limite de saturação;edos-edo-logistica.html
+165;Equações diferenciais;Critério de exatidão num retângulo;edos-edo-exatas-retangulo.html
+166;Equações diferenciais;Transformação de Bernoulli para soluções positivas;edos-edo-bernoulli-positiva.html
+167;Equações diferenciais;Substituição por razão em EDO homogênea;edos-edo-homogenea-razao.html
+168;Equações diferenciais;Equação linear de segunda ordem com raiz dupla;edos-edo-raiz-dupla.html
+169;Equações diferenciais;Equação linear de segunda ordem com raízes complexas;edos-edo-raizes-complexas.html
+170;Equações diferenciais;Identidade de Abel para o wronskiano;edos-edo-abel-wronskiano.html
+171;Equações diferenciais;Variação de parâmetros na segunda ordem;edos-edo-variacao-parametros-escalar.html
+172;Equações diferenciais;Redução de ordem usando uma solução conhecida;edos-edo-reducao-ordem.html
+173;Equações diferenciais;Exponencial de matriz resolve sistemas constantes;edos-edo-exponencial-matricial.html
+174;Equações diferenciais;Modos de um sistema diagonalizável;edos-edo-modos-autovetores.html
+175;Equações diferenciais;Fórmula de Duhamel para sistemas constantes;edos-edo-duhamel-sistema.html
+176;Equações diferenciais;Gronwall integral com coeficiente não negativo;edos-edo-gronwall.html
+177;Equações diferenciais;Picard–Lindelöf: existência e unicidade local;edos-edo-picard-local.html
+178;Equações diferenciais;Dependência contínua dos dados iniciais;edos-edo-dependencia-inicial.html
+179;Equações diferenciais;Conservação de energia em um sistema conservativo;edos-edo-energia-conservada.html
+180;Equações diferenciais;Erro global de primeira ordem do método de Euler;edos-edo-euler-erro-global.html
+181;Probabilidade;Teorema de Bayes;bayes.html
+182;Probabilidade;Regra de encadeamento de probabilidades;probabilidade-prob-regra-encadeamento.html
+183;Probabilidade;Independência de complementos;probabilidade-prob-independencia-complementos.html
+184;Probabilidade;Esperança pela soma das caudas;probabilidade-prob-esperanca-caudas.html
+185;Probabilidade;Variância da soma de variáveis não correlacionadas;probabilidade-prob-variancia-soma.html
+186;Probabilidade;Desigualdade de Markov;probabilidade-prob-markov.html
+187;Probabilidade;Desigualdade de Chebyshev;probabilidade-prob-chebyshev.html
+188;Probabilidade;Lei da esperança total para classes;probabilidade-prob-esperanca-total-classes.html
+189;Probabilidade;Lei da variância total para classes;probabilidade-prob-variancia-total-classes.html
+190;Probabilidade;Lei fraca dos grandes números com variância finita;probabilidade-prob-lei-fraca-variance-finita.html
+191;Probabilidade;Distribuição binomial como contagem de sucessos;probabilidade-prob-distribuicao-binomial.html
+192;Probabilidade;Distribuição hipergeométrica;probabilidade-prob-hipergeometrica.html
+193;Probabilidade;Soma de variáveis independentes de Poisson;probabilidade-prob-poisson-soma.html
+194;Probabilidade;Lei de Poisson para eventos raros;probabilidade-prob-limite-poisson-binomial.html
+195;Probabilidade;Ausência de memória no tempo geométrico;probabilidade-prob-geometrica-sem-memoria.html
+196;Probabilidade;Caracterização da distribuição exponencial pela falta de memória;probabilidade-prob-exponencial-sem-memoria.html
+197;Probabilidade;Primeiro lema de Borel–Cantelli;probabilidade-prob-borel-cantelli-um.html
+198;Probabilidade;Segundo lema de Borel–Cantelli;probabilidade-prob-borel-cantelli-dois.html
+199;Probabilidade;Distribuição do máximo de variáveis independentes;probabilidade-prob-maximo-independente.html
+200;Probabilidade;Limite de Cauchy–Schwarz para a covariância;probabilidade-prob-cota-covariancia.html

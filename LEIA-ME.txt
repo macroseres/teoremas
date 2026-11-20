@@ -1,0 +1,8 @@
+TEOREMAS EM PROVA
+
+1. Extraia todos os arquivos do ZIP na mesma pasta.
+2. Abra index.html em um navegador moderno. A busca e as fórmulas funcionam offline.
+3. Cada teorema também pode ser aberto pelo seu próprio arquivo HTML.
+4. catalogo.csv lista os títulos por área e seus arquivos.
+
+Material em revisão editorial, sem publicação ou cadastro externo.
