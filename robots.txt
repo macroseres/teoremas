@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://macroseres.github.io/teoremas/sitemap.xml

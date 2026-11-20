@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Se você usar este material, cite-o como abaixo."
+title: "Teoremas em prova"
+authors:
+  - family-names: "López"
+    given-names: "Edwin"
+license: CC-BY-4.0
+url: "https://macroseres.github.io/teoremas/"
+repository-code: "https://github.com/macroseres/teoremas"
+date-released: "2026-11-20"
+language: por
+keywords:
+  - matemática
+  - teoremas
+  - demonstrações
+  - graduação
