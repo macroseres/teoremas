@@ -10,7 +10,7 @@ catálogo e, de forma idempotente (pode rodar quantas vezes quiser):
 
   1. atualiza em cada página publicada: metadados (descrição, URL canônica,
      Open Graph, JSON-LD, citação), licença, "como citar", rodapé e a
-     navegação anterior/próximo dentro da área;
+     identificação individual com cinco dígitos;
   2. regenera o índice (index.html): lista por área, contagens e filtro;
   3. gera sitemap.xml e robots.txt;
   4. valida: arquivos existentes, ids únicos, títulos e resumos coerentes,
@@ -163,18 +163,6 @@ def aplicar_rodape(texto, bloco):
     return novo
 
 
-def nav_area(vizinhos, i):
-    links = []
-    if i > 0:
-        a = vizinhos[i - 1]
-        links.append(f'<a href="{esc(a["arquivo"])}"><small>Anterior na área</small>{texto_para_html(a["titulo"])}</a>')
-    if i < len(vizinhos) - 1:
-        p = vizinhos[i + 1]
-        links.append(f'<a href="{esc(p["arquivo"])}"><small>Próximo na área</small>{texto_para_html(p["titulo"])}</a>')
-    return ('<nav class="article-nav" aria-label="Mais teoremas desta área">'
-            + "".join(links) + "</nav>")
-
-
 def processar_pagina(r, vizinhos, i):
     caminho = RAIZ / r["arquivo"]
     t = caminho.read_text(encoding="utf-8")
@@ -188,7 +176,7 @@ def processar_pagina(r, vizinhos, i):
     t = re.sub(r'<p class="tag">.*?</p>',
                lambda m: f'<p class="tag">{esc(r["area"])} · {r["id"]}</p>', t, count=1)
     t = re.sub(r'<nav class="article-nav".*?</nav>',
-               lambda m: nav_area(vizinhos, i), t, count=1, flags=re.S)
+               "", t, count=1, flags=re.S)
     bloco = bloco_head(plano(r["titulo"]), plano(r["resumo"]), r["arquivo"], r["palavras_chave"],
                        r["registrado"], r["modificado"])
     if not publicado:

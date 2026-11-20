@@ -111,7 +111,7 @@ def main():
     if any(r["arquivo"] == arquivo for r in catalogo) or (RAIZ / arquivo).exists():
         print(f"ERRO: {arquivo} já existe.")
         return 1
-    novo_id = f"{max(int(r['id']) for r in catalogo) + 1:03d}"
+    novo_id = f"{max(int(r['id']) for r in catalogo) + 1:05d}"
     status = "publicado" if meta.get("status", "").lower() == "publicado" else "rascunho"
     hoje = date.today().isoformat()
 
@@ -143,7 +143,7 @@ def main():
              f'<p class="lead">{resumo_html}</p></div><div class="reading">'
              f'<nav class="toc" aria-label="Nesta demonstração"><strong>Nesta página</strong><ul>{"".join(toc)}</ul></nav>'
              f'<div class="body"><p class="prereq"><strong>Pré-requisitos:</strong> {pre_html}</p>{"".join(secs)}</div></div>'
-             f'<nav class="article-nav" aria-label="Mais teoremas desta área"></nav></article>')
+             f'</article>')
     (RAIZ / arquivo).write_text(prefixo + corpo + sufixo, encoding="utf-8", newline="")
 
     chaves = meta.get("palavras_chave") or f"teorema; demonstração; {area['nome'].lower()}"
