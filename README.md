@@ -1,4 +1,4 @@
-# Teoremas em prova
+# Índice de teoremas
 
 Coleção de teoremas de matemática de graduação, organizada por área. Cada página traz o enunciado, a ideia da prova, a demonstração, um exemplo, uma advertência sobre as hipóteses (com contraexemplo) e um complemento. As fórmulas são MathML pré-renderizado: não há JavaScript nem conexão externa.
 

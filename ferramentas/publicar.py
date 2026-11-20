@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Teoremas em prova - publicação e manutenção da coleção.
+"""Publicação e manutenção das páginas de teoremas.
 
 Uso (na pasta do projeto):
     python ferramentas/publicar.py            # aplica tudo e valida
@@ -105,8 +105,7 @@ def bloco_head(titulo, resumo, arquivo, chaves, registrado, modificado, indice=F
               "headline": titulo, "description": resumo, "url": u, "inLanguage": "pt-BR",
               "author": ld_autor, "license": CFG["licenca_url"],
               "educationalLevel": "Graduação", "learningResourceType": "Teorema com demonstração",
-              "keywords": chaves, "datePublished": registrado, "dateModified": modificado,
-              "isPartOf": {"@type": "WebSite", "name": site, "url": BASE}}
+              "keywords": chaves, "datePublished": registrado, "dateModified": modificado}
     partes = [
         '<meta name="robots" content="index, follow">',
         f'<meta name="description" content="{esc(resumo)}">',
@@ -114,7 +113,6 @@ def bloco_head(titulo, resumo, arquivo, chaves, registrado, modificado, indice=F
         f'<link rel="canonical" href="{esc(u)}">',
         f'<link rel="license" href="{esc(CFG["licenca_url"])}">',
         '<meta name="theme-color" content="#122a35">',
-        f'<meta property="og:site_name" content="{esc(site)}">',
         '<meta property="og:locale" content="pt_BR">',
         f'<meta property="og:type" content="{"website" if indice else "article"}">',
         f'<meta property="og:title" content="{esc(titulo)}">',
@@ -145,7 +143,7 @@ def bloco_rodape(titulo, arquivo, registrado, indice=False):
         return f'<!--pub:foot-->{lic}<!--/pub:foot-->'
     u = url(arquivo)
     cita = (f'<p class="cite"><strong>Como citar:</strong> {esc(CFG["autor_abnt"])}. '
-            f'<em>{esc(titulo)}</em>. In: {esc(CFG["site"])}. '
+            f'<em>{esc(titulo)}</em>. '
             f'{ano}. Disponível em: <a href="{esc(u)}">{esc(u)}</a>.</p>')
     return f"<!--pub:foot-->{cita}{lic}<!--/pub:foot-->"
 
@@ -182,8 +180,11 @@ def processar_pagina(r, vizinhos, i):
     t = caminho.read_text(encoding="utf-8")
     original = t
     publicado = r["status"] == "publicado"
+    t = re.sub(r'(<a class="brand" href="index.html">).*?(</a>)',
+               lambda m: m.group(1) + texto_para_html(r["titulo"]) + m.group(2), t, count=1)
+    t = t.replace('<span class="stage">Coleção de estudo</span>', '')
     t = re.sub(r"<title>.*?</title>",
-               lambda m: f"<title>{esc(plano(r['titulo']))} | {esc(CFG['site'])}</title>", t, count=1, flags=re.S)
+               lambda m: f"<title>{esc(plano(r['titulo']))}</title>", t, count=1, flags=re.S)
     t = re.sub(r'<p class="tag">.*?</p>',
                lambda m: f'<p class="tag">{esc(r["area"])} · {r["id"]}</p>', t, count=1)
     t = re.sub(r'<nav class="article-nav".*?</nav>',
