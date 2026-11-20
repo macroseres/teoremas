@@ -1,0 +1,37 @@
+# MODELO DE NOVO TEOREMA
+# Copie este arquivo para novos/<nome>.txt, preencha e rode:
+#     python ferramentas/novo.py novos/<nome>.txt
+# Linhas iniciadas por # no cabeçalho são ignoradas.
+#
+# area: um destes identificadores -> logica, numeros, combinatoria, geometria, linear,
+#       abstrata, calculo, analise, edos, probabilidade (novas áreas: ver COMO-ADICIONAR.md)
+# arquivo (opcional): nome do HTML sem extensão. Se omitido, usa <area>-<titulo>.
+# referencias (opcional): se omitido, usa as referências da área (areas.csv).
+# palavras-chave (opcional): termos separados por ponto e vírgula.
+# Fórmulas: $...$ na linha, $$...$$ em destaque. Parágrafos separados por linha em branco.
+# Seções opcionais: Ideia da prova, Exemplo, Atenção, Complemento.
+# Obrigatórias: Enunciado e Demonstração.
+
+area: analise
+titulo: Título do teorema
+resumo: Uma frase que resume o resultado, em português. Pode ter $fórmulas$.
+prerequisitos: Conceitos necessários para ler a prova.
+palavras-chave: termo um; termo dois
+
+## Enunciado
+Hipóteses e conclusão com todas as quantificações explícitas.
+
+## Ideia da prova
+Em uma ou duas frases, a estratégia.
+
+## Demonstração
+Passos completos. Use **negrito** para rótulos como **Passo 1.**
+
+## Exemplo
+Um exemplo numérico que você conferiu.
+
+## Atenção
+Uma hipótese que não pode ser retirada, com contraexemplo.
+
+## Complemento
+Generalizações, casos-limite e relações com outros teoremas.

@@ -8,3 +8,7 @@ Navegação e leitura
 
 Uso
 Extraia o ZIP e abra index.html. As páginas, a busca e as fórmulas funcionam sem internet em navegador moderno com suporte a MathML. Esta revisão não publicou nada e não alterou o Currículo Lattes.
+
+Atualização de 20/11/2026: seção "Complemento" e preparação para publicação
+As 200 páginas receberam uma seção "Complemento" (exemplos numéricos, contraexemplos, generalizações e casos-limite), redigida com auxílio do assistente Claude. Os exemplos numéricos foram recalculados e o MathML de todas as páginas foi validado; uma amostra foi conferida visualmente. A revisão matemática do autor sobre os complementos ainda deve ser registrada em auditoria.csv antes da divulgação.
+As páginas passaram a ter autoria, licença CC BY 4.0, citação, metadados para buscadores e URL canônica; o índice, a navegação, o sitemap.xml e o robots.txt agora são gerados a partir de catalogo.csv por ferramentas/publicar.py.

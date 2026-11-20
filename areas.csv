@@ -1,0 +1,11 @@
+﻿id;nome;titulo_referencias;referencias
+logica;Lógica e conjuntos;Referências da área;"Paul R. Halmos, Naive Set Theory; Daniel J. Velleman, How to Prove It: A Structured Approach."
+numeros;Teoria dos números;Referências da área;"David M. Burton, Elementary Number Theory; Kenneth H. Rosen, Elementary Number Theory and Its Applications."
+combinatoria;Combinatória;Referências da área;"Kenneth H. Rosen, Discrete Mathematics and Its Applications; Richard A. Brualdi, Introductory Combinatorics."
+geometria;Geometria;Referência para estudo;"Euclides, Os Elementos, Livro VI, proposição 8 (semelhança); Livro I, proposição 47 (enunciado clássico)."
+linear;Álgebra linear;Referências da área;"Sheldon Axler, Linear Algebra Done Right; Gilbert Strang, Introduction to Linear Algebra."
+abstrata;Álgebra abstrata;Referências da área;"Joseph A. Gallian, Contemporary Abstract Algebra; John B. Fraleigh, A First Course in Abstract Algebra."
+calculo;Cálculo;Referência para estudo;Hamilton Luiz Guidorizzi, Um Curso de Cálculo, vol. 1, teorema do valor médio.
+analise;Análise real;Referência para estudo;Elon Lages Lima, Análise Real, vol. 1, capítulo sobre sequências de números reais.
+edos;Equações diferenciais;Referências da área;"William E. Boyce, Richard C. DiPrima e Douglas B. Meade, Elementary Differential Equations and Boundary Value Problems; Morris W. Hirsch, Stephen Smale e Robert L. Devaney, Differential Equations, Dynamical Systems, and an Introduction to Chaos."
+probabilidade;Probabilidade;Referências da área;"Sheldon Ross, A First Course in Probability; Geoffrey Grimmett e David Stirzaker, Probability and Random Processes."

@@ -1,8 +1,8 @@
 TEOREMAS EM PROVA
+Autor: Edwin López | Licença: CC BY 4.0 (veja LICENSE.md)
+Leitura online: https://macroseres.github.io/teoremas/
 
-1. Extraia todos os arquivos do ZIP na mesma pasta.
-2. Abra index.html em um navegador moderno. A busca e as fórmulas funcionam offline.
-3. Cada teorema também pode ser aberto pelo seu próprio arquivo HTML.
-4. catalogo.csv lista os títulos por área e seus arquivos.
-
-Material em revisão editorial, sem publicação ou cadastro externo.
+1. Para ler offline, abra index.html em um navegador moderno (com suporte a MathML).
+2. Cada teorema tem o seu próprio arquivo HTML.
+3. catalogo.csv é o registro central dos teoremas; areas.csv lista as áreas.
+4. Para adicionar teoremas, leia COMO-ADICIONAR.md.
