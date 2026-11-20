@@ -138,7 +138,6 @@ def main():
                 f'<p>{html.escape(refs, quote=False)}</p></section>')
     pre_html = render(f"<p>{inline(meta['prerequisitos'])}</p>")[3:-4]
     corpo = (f'<main><article class="frame" id="{slug}"><div class="article-hero">'
-             f'<a class="back" href="index.html#{area["id"]}">Voltar à área</a>'
              f'<p class="tag">{html.escape(area["nome"])} · {novo_id}</p><h1>{titulo_html}</h1>'
              f'<p class="lead">{resumo_html}</p></div><div class="reading">'
              f'<nav class="toc" aria-label="Nesta demonstração"><strong>Nesta página</strong><ul>{"".join(toc)}</ul></nav>'

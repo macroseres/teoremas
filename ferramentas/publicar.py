@@ -168,8 +168,10 @@ def processar_pagina(r, vizinhos, i):
     t = caminho.read_text(encoding="utf-8")
     original = t
     publicado = r["status"] == "publicado"
-    t = re.sub(r'(<a class="brand" href="index.html">).*?(</a>)',
-               lambda m: m.group(1) + texto_para_html(r["titulo"]) + m.group(2), t, count=1)
+    t = re.sub(r'<header class="site-head">.*?</header>',
+               lambda m: '<header class="site-head"><div class="frame"><span class="brand">'
+               + texto_para_html(r["titulo"]) + '</span></div></header>', t, count=1, flags=re.S)
+    t = re.sub(r'<a class="back" href="index.html[^"]*">.*?</a>', '', t, count=1)
     t = t.replace('<span class="stage">Coleção de estudo</span>', '')
     t = re.sub(r"<title>.*?</title>",
                lambda m: f"<title>{esc(plano(r['titulo']))}</title>", t, count=1, flags=re.S)
